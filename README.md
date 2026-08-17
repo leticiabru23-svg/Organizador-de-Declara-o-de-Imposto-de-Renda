@@ -1,38 +1,74 @@
 # Organizador de Declaração de Imposto de Renda (IRPF)
 
-![Excel](https://img.shields.io/badge/Excel-VBA%20%2F%20Macro-green?style=for-the-badge&logo=microsoft-excel)
+![Excel](https://img.shields.io/badge/excel-organiza%C3%A7%C3%A3o%20de%20dados-brightgreen?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge)
-![License](https://img.shields.io/badge/Licen%C3%A7a-MIT-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/Curso-DIO-blue?style=for-the-badge)
 
-Uma ferramenta desenvolvida em **Microsoft Excel (com Macros / VBA)** para facilitar o controle, consolidação e organização das informações financeiras necessárias para a elaboração e prestação de contas da **Declaração do Imposto de Renda da Pessoa Física (IRPF)**.
+ ## 📌 Sobre o Projeto
 
----
+O Organizador de Declaração de Imposto de Renda (IRPF) tem como objetivo centralizar informações importantes em um único arquivo, permitindo registrar e consultar dados financeiros de forma organizada.
 
-## 📌 Principais Recursos
+A estrutura do arquivo foi pensada para facilitar o preenchimento e a posterior conferência das informações necessárias para a declaração.
 
-- 📊 **Dashboard Interativo & Resumo:** Visualização consolidada de rendimentos, deduções e imposto a restituir/pagar.
-- 💼 **Controle de Rendimentos:** Organização de salários, pró-labore, rendimentos isentos, tributáveis e de tributação exclusiva na fonte.
-- 🏠 **Gestão de Bens e Direitos:** Registro detalhado de imóveis, veículos, contas bancárias, investimentos e outros ativos.
-- 🧾 **Lançamento de Despesas Dedutíveis:** Mapeamento categorizado de gastos com saúde, educação, previdência e dependentes.
-- ⚙️ **Automação via Macros (VBA):** Formulários e botões para navegação rápida, limpeza de dados e cálculo automatizado.
+## ✨ Principais funcionalidades
+📊 Titular: Cadastro e visualização das informações do contribuinte.
+💼 Informes: Organização dos dados financeiros por instituição bancária, incluindo valores atuais e anexos relacionados.
+🏠 Notas: Registro mensal de receitas, com controle de datas, categorias e valores de entrada.
+✅ Validação de dados: Padronização e maior segurança no preenchimento das informações.
+🗂️ Centralização: Reunião das principais informações financeiras em um único arquivo.
+🔎 Organização: Estrutura simplificada para facilitar consultas e conferências.
+📁 Estrutura do Arquivo
 
----
+O projeto é composto pelo arquivo:
 
-## 📁 Estrutura do Arquivo
+Organizador de Declaração de Imposto de Renda.xlsm
 
-O projeto é baseado no arquivo `Organizador de Declaração de Imposto de Renda.xlsm`, composto pelas seguintes divisões:
+O arquivo está organizado nas seguintes abas:
 
-| Aba | Descrição |
-| :--- | :--- |
-| **Painel / Resumo** | Visão geral dos totais declarados e resumo do IRPF. |
-| **Rendimentos** | Cadastro de informes de rendimentos recebidos de fontes pagadoras. |
-| **Bens & Ativos** | Tabela estruturada para acompanhamento da evolução patrimonial. |
-| **Despesas & Deduções** | Organização dos comprovantes e despesas dedutíveis. |
+### Aba	Descrição
+Titular	Cadastro e organização das informações do titular da declaração.
+Informes	Registro detalhado de informações por instituição bancária, valores atuais e anexos.
+Notas	Controle mensal de receitas, incluindo datas, categorias e valores de entrada.
+🚀 Como Utilizar
+1. Clone o repositório
+git clone https://github.com/seu-usuario/organizador-irpf.git
+2. Abra o arquivo
 
----
+Após clonar o projeto, abra o arquivo:
 
-## 🚀 Como Utilizar
+Organizador de Declaração de Imposto de Renda.xlsm
 
-1. **Faça o Download ou Clone o Repositório:**
-   ```bash
-   git clone [https://github.com/seu-usuario/organizador-irpf.git](https://github.com/seu-usuario/organizador-irpf.git)
+Importante: Para utilizar todos os recursos do arquivo, recomenda-se abrir o projeto no Microsoft Excel com suporte a arquivos habilitados para macro (.xlsm).
+
+3. Preencha as informações
+
+Utilize cada aba de acordo com sua finalidade:
+
+Titular: informe os dados do contribuinte;
+Informes: registre os dados financeiros e bancários;
+Notas: mantenha o controle das receitas e respectivas categorias ao longo dos meses.
+4. Mantenha os documentos organizados
+
+Utilize os campos destinados aos anexos para facilitar a localização e conferência dos documentos relacionados às informações registradas.
+
+## 🎯 Objetivo
+
+O projeto busca tornar o processo de organização das informações para a declaração do IRPF mais simples, estruturado e eficiente, reduzindo a dispersão de dados e facilitando a conferência das informações financeiras.
+
+Além da aplicação prática, o projeto demonstra a utilização do Microsoft Excel como ferramenta de organização e gestão de dados, explorando recursos como validação de dados, estruturação de informações e automação de processos.
+
+## 🛠️ Tecnologias e Recursos
+Microsoft Excel
+Validação de dados
+Fórmulas e funções do Excel
+Organização e estruturação de dados
+Arquivo habilitado para macro (.xlsm)
+📚 Projeto DIO
+
+Este projeto foi desenvolvido como parte de um desafio/projeto prático da Digital Innovation One (DIO), com foco no desenvolvimento de uma solução utilizando recursos do Microsoft Excel.
+
+### 👨‍💻 Autor
+
+Bruna Dias - Formação Análise de Dados com Excel e IA
+
+Desenvolvido como projeto prático para aprimoramento de conhecimentos em Excel e organização de dados financeiros.
